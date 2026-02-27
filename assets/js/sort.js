@@ -8,11 +8,17 @@ document.addEventListener('DOMContentLoaded', function() {
   const hddCards = Array.from(hddGrid.querySelectorAll('.drive-card'));
   const ssdCards = Array.from(ssdGrid.querySelectorAll('.drive-card'));
   
-  // Add sorting controls to each section
-  addSortingControls('hdd-section', hddGrid, hddCards);
-  addSortingControls('ssd-section', ssdGrid, ssdCards);
+  // Track sort direction for each section
+  const sortState = {
+    hdd: { sort: 'default', direction: 'asc' },
+    ssd: { sort: 'default', direction: 'asc' }
+  };
   
-  function addSortingControls(sectionId, grid, cards) {
+  // Add sorting controls to each section
+  addSortingControls('hdd-section', hddGrid, hddCards, 'hdd');
+  addSortingControls('ssd-section', ssdGrid, ssdCards, 'ssd');
+  
+  function addSortingControls(sectionId, grid, cards, sectionKey) {
     const section = document.getElementById(sectionId);
     if (!section) return;
     
@@ -20,10 +26,11 @@ document.addEventListener('DOMContentLoaded', function() {
     controlsDiv.className = 'sort-controls';
     controlsDiv.innerHTML = `
       <span class="sort-label">Sort by:</span>
-      <button class="sort-btn active" data-sort="default">Featured</button>
-      <button class="sort-btn" data-sort="price">Price</button>
-      <button class="sort-btn" data-sort="capacity">Capacity</button>
-      <button class="sort-btn" data-sort="ppg">Price/GB</button>
+      <button class="sort-btn active" data-sort="default" data-section="${sectionKey}">Featured</button>
+      <button class="sort-btn" data-sort="price" data-section="${sectionKey}">Price: Low to High</button>
+      <button class="sort-btn" data-sort="price-desc" data-section="${sectionKey}">Price: High to Low</button>
+      <button class="sort-btn" data-sort="capacity" data-section="${sectionKey}">Capacity</button>
+      <button class="sort-btn" data-sort="ppg" data-section="${sectionKey}">Best Value</button>
     `;
     
     const sectionHeader = section.querySelector('.section-header');
@@ -34,13 +41,35 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add event listeners
     controlsDiv.querySelectorAll('.sort-btn').forEach(btn => {
       btn.addEventListener('click', function() {
+        const sortType = this.dataset.sort;
+        const section = this.dataset.section;
+        
+        // Update active state
         controlsDiv.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
         this.classList.add('active');
         
-        const sortType = this.dataset.sort;
+        // Update button text based on current sort
+        updateButtonText(controlsDiv, sortType);
+        
         sortCards(grid, cards, sortType);
       });
     });
+  }
+  
+  function updateButtonText(controlsDiv, currentSort) {
+    const priceBtn = controlsDiv.querySelector('[data-sort="price"]');
+    const priceDescBtn = controlsDiv.querySelector('[data-sort="price-desc"]');
+    
+    if (currentSort === 'price') {
+      priceBtn.textContent = 'Price: Low to High ↓';
+      priceDescBtn.textContent = 'Price: High to Low';
+    } else if (currentSort === 'price-desc') {
+      priceBtn.textContent = 'Price: Low to High';
+      priceDescBtn.textContent = 'Price: High to Low ↑';
+    } else {
+      priceBtn.textContent = 'Price: Low to High';
+      priceDescBtn.textContent = 'Price: High to Low';
+    }
   }
   
   function sortCards(grid, cards, sortType) {
@@ -52,6 +81,14 @@ document.addEventListener('DOMContentLoaded', function() {
           const priceA = parseFloat(a.dataset.price) || 0;
           const priceB = parseFloat(b.dataset.price) || 0;
           return priceA - priceB;
+        });
+        break;
+        
+      case 'price-desc':
+        sortedCards.sort((a, b) => {
+          const priceA = parseFloat(a.dataset.price) || 0;
+          const priceB = parseFloat(b.dataset.price) || 0;
+          return priceB - priceA;
         });
         break;
         

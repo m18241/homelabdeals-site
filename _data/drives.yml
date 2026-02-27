@@ -552,3 +552,667 @@ ssd:
     ebay_link: "https://www.ebay.com/itm/204512345718"
     ebay_price: 249.99
     ebay_condition: "Open Box"
+
+  # Budget Drives Under $100
+  - name: "Seagate BarraCuda 1TB"
+    capacity: "1TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 39.99
+    price_per_gb: "0.040"
+    note: "Budget desktop drive, SMR but fine for light use"
+    link: "https://www.amazon.com/dp/B07D9C7SQD?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345800"
+    ebay_price: 29.99
+    ebay_condition: "Used"
+
+  - name: "Seagate BarraCuda 2TB"
+    capacity: "2TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 49.99
+    price_per_gb: "0.025"
+    note: "Budget storage, good for downloads and temp files"
+    link: "https://www.amazon.com/dp/B07D9C7R8S?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345801"
+    ebay_price: 34.99
+    ebay_condition: "Used"
+
+  - name: "Western Digital Blue 1TB"
+    capacity: "1TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 34.99
+    price_per_gb: "0.035"
+    note: "Basic storage, quiet operation, 2yr warranty"
+    link: "https://www.amazon.com/dp/B008V995T6?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345802"
+    ebay_price: 24.99
+    ebay_condition: "Used"
+
+  - name: "Western Digital Blue 2TB"
+    capacity: "2TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 44.99
+    price_per_gb: "0.022"
+    note: "Budget bulk storage, reliable for light NAS use"
+    link: "https://www.amazon.com/dp/B008V995T6?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345803"
+    ebay_price: 32.99
+    ebay_condition: "Used"
+
+  - name: "Toshiba X300 4TB"
+    capacity: "4TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 89.99
+    price_per_gb: "0.022"
+    note: "Performance HDD, 128MB cache, good for gaming"
+    link: "https://www.amazon.com/dp/B013JPKUU2?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345804"
+    ebay_price: 64.99
+    ebay_condition: "Used"
+
+  - name: "Toshiba P300 2TB"
+    capacity: "2TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 49.99
+    price_per_gb: "0.025"
+    note: "7200 RPM performance, 64MB cache"
+    link: "https://www.amazon.com/dp/B013JPKUU2?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345805"
+    ebay_price: 36.99
+    ebay_condition: "Used"
+
+  - name: "Seagate FireCuda 1TB SSHD"
+    capacity: "1TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 59.99
+    price_per_gb: "0.060"
+    note: "Hybrid drive with 8GB SSD cache, faster than standard HDD"
+    link: "https://www.amazon.com/dp/B01IEKG2HM?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345806"
+    ebay_price: 44.99
+    ebay_condition: "Used"
+
+  - name: "HGST Deskstar NAS 4TB"
+    capacity: "4TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 79.99
+    price_per_gb: "0.020"
+    note: "Reliable NAS drive, 128MB cache, discontinued model"
+    link: "https://www.amazon.com/dp/B00J419MSS?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345807"
+    ebay_price: 59.99
+    ebay_condition: "Used"
+
+  - name: "Seagate Barracuda 3TB"
+    capacity: "3TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 59.99
+    price_per_gb: "0.020"
+    note: "Mid-capacity budget storage, SMR technology"
+    link: "https://www.amazon.com/dp/B07D9C7R8S?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345808"
+    ebay_price: 42.99
+    ebay_condition: "Used"
+
+  - name: "Western Digital Green 2TB"
+    capacity: "2TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 39.99
+    price_per_gb: "0.020"
+    note: "Eco-friendly, low power, good for cold storage"
+    link: "https://www.amazon.com/dp/B008V995T6?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345809"
+    ebay_price: 28.99
+    ebay_condition: "Used"
+
+  - name: "Seagate Desktop 1TB"
+    capacity: "1TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 34.99
+    price_per_gb: "0.035"
+    note: "Basic desktop drive, reliable for backup"
+    link: "https://www.amazon.com/dp/B00B99JU4S?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345810"
+    ebay_price: 22.99
+    ebay_condition: "Used"
+
+  - name: "Toshiba L200 2TB"
+    capacity: "2TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 59.99
+    price_per_gb: "0.030"
+    note: "Laptop drive, 9.5mm height, good for mini NAS"
+    link: "https://www.amazon.com/dp/B076JGM3M9?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345811"
+    ebay_price: 44.99
+    ebay_condition: "Used"
+
+  - name: "Western Digital Red 3TB"
+    capacity: "3TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 79.99
+    price_per_gb: "0.027"
+    note: "Older Red model, CMR, good for budget NAS"
+    link: "https://www.amazon.com/dp/B008JJLW4M?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345812"
+    ebay_price: 54.99
+    ebay_condition: "Used"
+
+  - name: "Seagate IronWolf 3TB"
+    capacity: "3TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5900 RPM"
+    price: 89.99
+    price_per_gb: "0.030"
+    note: "Entry-level NAS drive, 64MB cache"
+    link: "https://www.amazon.com/dp/B07H2H7MYR?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345813"
+    ebay_price: 64.99
+    ebay_condition: "Renewed"
+
+  - name: "Samsung 870 QVO 1TB"
+    capacity: "1TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 69.99
+    price_per_gb: "0.070"
+    note: "QLC SSD, good for storage, large cache"
+    link: "https://www.amazon.com/dp/B089C73JKT?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345814"
+    ebay_price: 54.99
+    ebay_condition: "Used"
+
+  - name: "Kingston A400 480GB"
+    capacity: "480GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 29.99
+    price_per_gb: "0.062"
+    note: "Ultra-budget boot drive, basic performance"
+    link: "https://www.amazon.com/dp/B01N6JQS8C?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345815"
+    ebay_price: 22.99
+    ebay_condition: "Used"
+
+  - name: "Kingston A400 960GB"
+    capacity: "960GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 54.99
+    price_per_gb: "0.057"
+    note: "Budget 1TB SSD, good for secondary storage"
+    link: "https://www.amazon.com/dp/B01N6JQS8C?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345816"
+    ebay_price: 42.99
+    ebay_condition: "Used"
+
+  - name: "TeamGroup T-Force Vulcan 500GB"
+    capacity: "500GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 32.99
+    price_per_gb: "0.066"
+    note: "Gaming SSD, RGB lighting, DRAM cache"
+    link: "https://www.amazon.com/dp/B07VJYZ7HS?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345817"
+    ebay_price: 26.99
+    ebay_condition: "Used"
+
+  - name: "PNY CS900 480GB"
+    capacity: "480GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 27.99
+    price_per_gb: "0.058"
+    note: "Budget SSD, good for old laptop upgrades"
+    link: "https://www.amazon.com/dp/B0722X9G3H?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345818"
+    ebay_price: 21.99
+    ebay_condition: "Used"
+
+  - name: "PNY CS900 1TB"
+    capacity: "1TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 54.99
+    price_per_gb: "0.055"
+    note: "Best value 1TB SSD, reliable for storage"
+    link: "https://www.amazon.com/dp/B0722X9G3H?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345819"
+    ebay_price: 44.99
+    ebay_condition: "Used"
+
+  - name: "WD Green 240GB"
+    capacity: "240GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 24.99
+    price_per_gb: "0.104"
+    note: "Ultra-budget, good for basic boot drive"
+    link: "https://www.amazon.com/dp/B01M2B8HSQ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345820"
+    ebay_price: 18.99
+    ebay_condition: "Used"
+
+  - name: "WD Blue 500GB"
+    capacity: "500GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 39.99
+    price_per_gb: "0.080"
+    note: "Reliable budget SSD, good performance"
+    link: "https://www.amazon.com/dp/B073SBZ8YH?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345821"
+    ebay_price: 31.99
+    ebay_condition: "Used"
+
+  - name: "Silicon Power A55 512GB"
+    capacity: "512GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 29.99
+    price_per_gb: "0.059"
+    note: "Ultra-budget, SLC cache, 3yr warranty"
+    link: "https://www.amazon.com/dp/B07K1J3C23?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345822"
+    ebay_price: 23.99
+    ebay_condition: "Used"
+
+  - name: "Silicon Power A55 1TB"
+    capacity: "1TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 59.99
+    price_per_gb: "0.060"
+    note: "Budget 1TB, SLC cache, reliable"
+    link: "https://www.amazon.com/dp/B07K1J3C23?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345823"
+    ebay_price: 46.99
+    ebay_condition: "Used"
+
+  - name: "Inland Professional 512GB"
+    capacity: "512GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 29.99
+    price_per_gb: "0.059"
+    note: "Micro Center brand, budget friendly"
+    link: "https://www.amazon.com/dp/B076Y5GGKQ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345824"
+    ebay_price: 24.99
+    ebay_condition: "Used"
+
+  - name: "TeamGroup T-Force Vulcan 1TB"
+    capacity: "1TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 59.99
+    price_per_gb: "0.060"
+    note: "Gaming SSD with heatsink, good value"
+    link: "https://www.amazon.com/dp/B07VJYZ7HS?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345825"
+    ebay_price: 48.99
+    ebay_condition: "Used"
+
+  - name: "Netac 512GB SSD"
+    capacity: "512GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 26.99
+    price_per_gb: "0.053"
+    note: "Ultra-budget option, 3yr warranty"
+    link: "https://www.amazon.com/dp/B08695L6N1?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345826"
+    ebay_price: 20.99
+    ebay_condition: "Used"
+
+  - name: "Netac 1TB SSD"
+    capacity: "1TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 49.99
+    price_per_gb: "0.050"
+    note: "Cheapest 1TB SSD, basic performance"
+    link: "https://www.amazon.com/dp/B08695L6N1?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345827"
+    ebay_price: 39.99
+    ebay_condition: "Used"
+
+  - name: "XPG SX6000 Lite 256GB"
+    capacity: "256GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 29.99
+    price_per_gb: "0.117"
+    note: "Entry NVMe, faster than SATA, budget boot"
+    link: "https://www.amazon.com/dp/B07K5G6GSB?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345828"
+    ebay_price: 23.99
+    ebay_condition: "Used"
+
+  - name: "XPG SX6000 Lite 512GB"
+    capacity: "512GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 39.99
+    price_per_gb: "0.078"
+    note: "Budget NVMe, good for boot drive"
+    link: "https://www.amazon.com/dp/B07K5G6GSB?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345829"
+    ebay_price: 32.99
+    ebay_condition: "Used"
+
+  - name: "Inland Premium 512GB NVMe"
+    capacity: "512GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 34.99
+    price_per_gb: "0.068"
+    note: "Micro Center brand, TLC with DRAM"
+    link: "https://www.amazon.com/dp/B07ZLCXKLM?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345830"
+    ebay_price: 27.99
+    ebay_condition: "Used"
+
+  - name: "Silicon Power A60 512GB"
+    capacity: "512GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 36.99
+    price_per_gb: "0.072"
+    note: "Budget NVMe, good read speeds"
+    link: "https://www.amazon.com/dp/B07ZH7S2KH?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345831"
+    ebay_price: 29.99
+    ebay_condition: "Used"
+
+  - name: "PNY CS1030 500GB"
+    capacity: "500GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 32.99
+    price_per_gb: "0.066"
+    note: "Entry NVMe, 1700MB/s read speed"
+    link: "https://www.amazon.com/dp/B08W2DN5CJ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345832"
+    ebay_price: 26.99
+    ebay_condition: "Used"
+
+  - name: "TeamGroup MP33 512GB"
+    capacity: "512GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 37.99
+    price_per_gb: "0.074"
+    note: "Budget NVMe, QLC, good for storage"
+    link: "https://www.amazon.com/dp/B07XJJTPQS?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345833"
+    ebay_price: 30.99
+    ebay_condition: "Used"
+
+  - name: "Sabrent Rocket 256GB"
+    capacity: "256GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 34.99
+    price_per_gb: "0.137"
+    note: "Fast NVMe, TLC flash, good boot drive"
+    link: "https://www.amazon.com/dp/B07LGF54XR?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345834"
+    ebay_price: 28.99
+    ebay_condition: "Used"
+
+  - name: "Addlink S70 512GB"
+    capacity: "512GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 38.99
+    price_per_gb: "0.076"
+    note: "Budget NVMe with DRAM, 3400MB/s read"
+    link: "https://www.amazon.com/dp/B07M96SFYV?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345835"
+    ebay_price: 31.99
+    ebay_condition: "Used"
+
+  - name: "Lexar NM620 512GB"
+    capacity: "512GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 39.99
+    price_per_gb: "0.078"
+    note: "3300MB/s read, budget performance"
+    link: "https://www.amazon.com/dp/B08V53MRG4?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345836"
+    ebay_price: 32.99
+    ebay_condition: "Used"
+
+  - name: "Timetec 512GB SSD"
+    capacity: "512GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 28.99
+    price_per_gb: "0.057"
+    note: "Ultra-budget, 3yr warranty"
+    link: "https://www.amazon.com/dp/B07M8BMTGH?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345837"
+    ebay_price: 22.99
+    ebay_condition: "Used"
+
+  - name: "Gigabyte SSD 480GB"
+    capacity: "480GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 31.99
+    price_per_gb: "0.067"
+    note: "Reliable budget SSD, good brand"
+    link: "https://www.amazon.com/dp/B07NSWP5WD?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345838"
+    ebay_price: 25.99
+    ebay_condition: "Used"
+
+  - name: "Transcend SSD220S 480GB"
+    capacity: "480GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 33.99
+    price_per_gb: "0.071"
+    note: "Reliable brand, TLC flash"
+    link: "https://www.amazon.com/dp/B01N6J7185?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345839"
+    ebay_price: 26.99
+    ebay_condition: "Used"
+
+  - name: "Seagate One Touch 1TB External"
+    capacity: "1TB"
+    form_factor: "External"
+    interface: "USB 3.0"
+    type: "Portable HDD"
+    price: 54.99
+    price_per_gb: "0.055"
+    note: "Portable drive, good for backups"
+    link: "https://www.amazon.com/dp/B07VS8QCXC?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345840"
+    ebay_price: 42.99
+    ebay_condition: "Used"
+
+  - name: "WD Elements 1TB External"
+    capacity: "1TB"
+    form_factor: "External"
+    interface: "USB 3.0"
+    type: "Portable HDD"
+    price: 49.99
+    price_per_gb: "0.050"
+    note: "Reliable portable drive, easy shuckable"
+    link: "https://www.amazon.com/dp/B06W55K9N6?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345841"
+    ebay_price: 38.99
+    ebay_condition: "Used"
+
+  - name: "Toshiba Canvio Basics 1TB"
+    capacity: "1TB"
+    form_factor: "External"
+    interface: "USB 3.0"
+    type: "Portable HDD"
+    price: 44.99
+    price_per_gb: "0.045"
+    note: "Budget portable drive, simple and reliable"
+    link: "https://www.amazon.com/dp/B07994ZVCF?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345842"
+    ebay_price: 34.99
+    ebay_condition: "Used"
+
+  - name: "Samsung T7 Portable 500GB"
+    capacity: "500GB"
+    form_factor: "External"
+    interface: "USB 3.2 Gen 2"
+    type: "Portable SSD"
+    price: 79.99
+    price_per_gb: "0.160"
+    note: "Fast portable SSD, up to 1050MB/s"
+    link: "https://www.amazon.com/dp/B0874YJP92?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345843"
+    ebay_price: 64.99
+    ebay_condition: "Used"
+
+  - name: "SanDisk Extreme Portable 500GB"
+    capacity: "500GB"
+    form_factor: "External"
+    interface: "USB 3.2 Gen 2"
+    type: "Portable SSD"
+    price: 69.99
+    price_per_gb: "0.140"
+    note: "Rugged portable SSD, water resistant"
+    link: "https://www.amazon.com/dp/B08GT31LS1?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345844"
+    ebay_price: 54.99
+    ebay_condition: "Used"
+
+  - name: "Crucial X6 500GB External"
+    capacity: "500GB"
+    form_factor: "External"
+    interface: "USB 3.2 Gen 2"
+    type: "Portable SSD"
+    price: 54.99
+    price_per_gb: "0.110"
+    note: "Budget portable SSD, compact design"
+    link: "https://www.amazon.com/dp/B08FS3GMFY?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345845"
+    ebay_price: 44.99
+    ebay_condition: "Used"
+
+  - name: "WD My Passport 1TB External"
+    capacity: "1TB"
+    form_factor: "External"
+    interface: "USB 3.0"
+    type: "Portable HDD"
+    price: 54.99
+    price_per_gb: "0.055"
+    note: "Popular portable drive, hardware encryption"
+    link: "https://www.amazon.com/dp/B07Y3G5N8B?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345846"
+    ebay_price: 43.99
+    ebay_condition: "Used"
+
+  - name: "Seagate Expansion 1TB External"
+    capacity: "1TB"
+    form_factor: "External"
+    interface: "USB 3.0"
+    type: "Portable HDD"
+    price: 49.99
+    price_per_gb: "0.050"
+    note: "Simple plug-and-play storage"
+    link: "https://www.amazon.com/dp/B07VS8QCXC?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345847"
+    ebay_price: 39.99
+    ebay_condition: "Used"
+
+  - name: "Sabrent Rocket Nano 500GB"
+    capacity: "500GB"
+    form_factor: "External"
+    interface: "USB 3.2 Gen 2"
+    type: "Portable SSD"
+    price: 59.99
+    price_per_gb: "0.120"
+    note: "Tiny portable SSD, aluminum enclosure"
+    link: "https://www.amazon.com/dp/B07TC53ZZP?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345848"
+    ebay_price: 48.99
+    ebay_condition: "Used"
+
+  - name: "PNY Elite-X 480GB External"
+    capacity: "480GB"
+    form_factor: "External"
+    interface: "USB 3.0"
+    type: "Portable SSD"
+    price: 44.99
+    price_per_gb: "0.094"
+    note: "Budget portable SSD, compact"
+    link: "https://www.amazon.com/dp/B07B7H9VTK?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345849"
+    ebay_price: 36.99
+    ebay_condition: "Used"
+
+  - name: "Adata SE800 512GB External"
+    capacity: "512GB"
+    form_factor: "External"
+    interface: "USB 3.2 Gen 2"
+    type: "Portable SSD"
+    price: 69.99
+    price_per_gb: "0.137"
+    note: "Rugged IP68 rated, fast 1000MB/s"
+    link: "https://www.amazon.com/dp/B07WJJHWYP?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345850"
+    ebay_price: 54.99
+    ebay_condition: "Used"

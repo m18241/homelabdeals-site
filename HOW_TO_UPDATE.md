@@ -116,18 +116,11 @@ Wait 1-2 minutes for GitHub Pages to rebuild.
 
 ## Where Files Are Located
 
-Your site has two repos:
-
 ### Public Site (What visitors see)
 - Repo: `HLDeals/homelabdeals-site`
 - URL: https://hldeals.github.io/homelabdeals-site
-- Location: `/root/.openclaw/workspace/homelabdeals-site/`
 
-### Private Source (Your working copy)
-- Repo: `m18241/techdeals` (private)
-- Location: `/root/.openclaw/workspace/techdeals/`
-
-**Always edit in the public site folder** (`homelabdeals-site`), then sync to private if needed.
+**Always edit files in this repository.**
 
 ## Need Help?
 

@@ -6,11 +6,23 @@
     {% if drive.hot %}
       <span class="badge badge-hot">Hot Deal</span>
     {% endif %}
-    <span class="badge badge-type">{{ drive.interface | default: 'SATA' }}</span>
+    {% if drive.form_factor == 'SBC' or drive.form_factor == 'Microcontroller' %}
+      <span class="badge badge-type">{{ drive.type | default: 'SBC' }}</span>
+    {% else %}
+      <span class="badge badge-type">{{ drive.interface | default: 'SATA' }}</span>
+    {% endif %}
   </div>
   
   <div class="drive-icon">
-    {% if drive.type == 'NVMe' or drive.form_factor == 'M.2' %}
+    {% if drive.form_factor == 'SBC' %}
+      🖥️
+    {% elsif drive.form_factor == 'Microcontroller' %}
+      🔌
+    {% elsif drive.form_factor == 'External' %}
+      💼
+    {% elsif drive.form_factor == 'HAT' or drive.form_factor == 'Camera' %}
+      🔧
+    {% elsif drive.type == 'NVMe' or drive.form_factor == 'M.2' %}
       ⚡
     {% elsif drive.type == 'SATA SSD' %}
       💾

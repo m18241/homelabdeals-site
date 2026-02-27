@@ -1,36 +1,27 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Get all drive cards from both sections
-  const hddGrid = document.getElementById('hdd-grid');
-  const ssdGrid = document.getElementById('ssd-grid');
+  // Initialize sorting for all three sections
+  initSection('hdd-grid', 'hdd-section');
+  initSection('ssd-grid', 'ssd-section');
+  initSection('sbc-grid', 'sbc-section');
   
-  if (!hddGrid || !ssdGrid) return;
-  
-  const hddCards = Array.from(hddGrid.querySelectorAll('.drive-card'));
-  const ssdCards = Array.from(ssdGrid.querySelectorAll('.drive-card'));
-  
-  // Track sort direction for each section
-  const sortState = {
-    hdd: { sort: 'default', direction: 'asc' },
-    ssd: { sort: 'default', direction: 'asc' }
-  };
-  
-  // Add sorting controls to each section
-  addSortingControls('hdd-section', hddGrid, hddCards, 'hdd');
-  addSortingControls('ssd-section', ssdGrid, ssdCards, 'ssd');
-  
-  function addSortingControls(sectionId, grid, cards, sectionKey) {
+  function initSection(gridId, sectionId) {
+    const grid = document.getElementById(gridId);
     const section = document.getElementById(sectionId);
-    if (!section) return;
     
+    if (!grid || !section) return;
+    
+    const cards = Array.from(grid.querySelectorAll('.drive-card'));
+    
+    // Create sort controls
     const controlsDiv = document.createElement('div');
     controlsDiv.className = 'sort-controls';
     controlsDiv.innerHTML = `
       <span class="sort-label">Sort by:</span>
-      <button class="sort-btn active" data-sort="default" data-section="${sectionKey}">Featured</button>
-      <button class="sort-btn" data-sort="price" data-section="${sectionKey}">Price: Low to High</button>
-      <button class="sort-btn" data-sort="price-desc" data-section="${sectionKey}">Price: High to Low</button>
-      <button class="sort-btn" data-sort="capacity" data-section="${sectionKey}">Capacity</button>
-      <button class="sort-btn" data-sort="ppg" data-section="${sectionKey}">Best Value</button>
+      <button class="sort-btn active" data-sort="default">Featured</button>
+      <button class="sort-btn" data-sort="price">Price: Low to High</button>
+      <button class="sort-btn" data-sort="price-desc">Price: High to Low</button>
+      <button class="sort-btn" data-sort="capacity">Capacity</button>
+      <button class="sort-btn" data-sort="ppg">Best Value</button>
     `;
     
     const sectionHeader = section.querySelector('.section-header');
@@ -41,35 +32,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add event listeners
     controlsDiv.querySelectorAll('.sort-btn').forEach(btn => {
       btn.addEventListener('click', function() {
-        const sortType = this.dataset.sort;
-        const section = this.dataset.section;
-        
         // Update active state
         controlsDiv.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
         this.classList.add('active');
         
-        // Update button text based on current sort
-        updateButtonText(controlsDiv, sortType);
-        
+        const sortType = this.dataset.sort;
         sortCards(grid, cards, sortType);
       });
     });
-  }
-  
-  function updateButtonText(controlsDiv, currentSort) {
-    const priceBtn = controlsDiv.querySelector('[data-sort="price"]');
-    const priceDescBtn = controlsDiv.querySelector('[data-sort="price-desc"]');
-    
-    if (currentSort === 'price') {
-      priceBtn.textContent = 'Price: Low to High ↓';
-      priceDescBtn.textContent = 'Price: High to Low';
-    } else if (currentSort === 'price-desc') {
-      priceBtn.textContent = 'Price: Low to High';
-      priceDescBtn.textContent = 'Price: High to Low ↑';
-    } else {
-      priceBtn.textContent = 'Price: Low to High';
-      priceDescBtn.textContent = 'Price: High to Low';
-    }
   }
   
   function sortCards(grid, cards, sortType) {
@@ -96,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sortedCards.sort((a, b) => {
           const capA = parseCapacity(a.dataset.capacity);
           const capB = parseCapacity(b.dataset.capacity);
-          return capB - capA; // Largest first
+          return capB - capA;
         });
         break;
         
@@ -104,11 +74,11 @@ document.addEventListener('DOMContentLoaded', function() {
         sortedCards.sort((a, b) => {
           const ppgA = parseFloat(a.dataset.ppg) || 999;
           const ppgB = parseFloat(b.dataset.ppg) || 999;
-          return ppgA - ppgB; // Best value first
+          return ppgA - ppgB;
         });
         break;
         
-      default: // featured
+      default:
         sortedCards.sort((a, b) => {
           const featA = a.dataset.featured === 'true' ? 1 : 0;
           const featB = b.dataset.featured === 'true' ? 1 : 0;
@@ -124,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
     sortedCards.forEach((card, index) => {
       card.style.animationDelay = `${index * 0.05}s`;
       card.classList.remove('fade-in');
-      void card.offsetWidth; // Trigger reflow
+      void card.offsetWidth;
       card.classList.add('fade-in');
     });
   }

@@ -937,3 +937,258 @@ ssd:
     price_per_gb: "0.137"
     note: "Rugged IP68 rated, fast 1000MB/s"
     link: "https://www.amazon.com/dp/B07WJJHWYP?tag=homelabdeals-20"
+
+sbc:
+  - name: "Raspberry Pi 5 8GB"
+    capacity: "8GB RAM"
+    form_factor: "SBC"
+    interface: "PCIe 2.0"
+    type: "ARM SBC"
+    price: 79.99
+    price_per_gb: "10.00"
+    note: "Latest Pi with 2.4GHz quad-core, dual 4K display support"
+    link: "https://www.amazon.com/dp/B0CL4GQ6P7?tag=homelabdeals-20"
+    featured: true
+
+  - name: "Raspberry Pi 5 4GB"
+    capacity: "4GB RAM"
+    form_factor: "SBC"
+    interface: "PCIe 2.0"
+    type: "ARM SBC"
+    price: 59.99
+    price_per_gb: "15.00"
+    note: "Great balance of performance and price for homelab projects"
+    link: "https://www.amazon.com/dp/B0CL4GQ6P7?tag=homelabdeals-20"
+
+  - name: "Raspberry Pi 4 8GB"
+    capacity: "8GB RAM"
+    form_factor: "SBC"
+    interface: "USB 3.0"
+    type: "ARM SBC"
+    price: 74.99
+    price_per_gb: "9.37"
+    note: "Proven platform, great for Pi-hole, NAS, or Home Assistant"
+    link: "https://www.amazon.com/dp/B08N5FT8YC?tag=homelabdeals-20"
+
+  - name: "Raspberry Pi 4 4GB"
+    capacity: "4GB RAM"
+    form_factor: "SBC"
+    interface: "USB 3.0"
+    type: "ARM SBC"
+    price: 54.99
+    price_per_gb: "13.75"
+    note: "Most popular model, perfect for most homelab needs"
+    link: "https://www.amazon.com/dp/B08N5M7S6K?tag=homelabdeals-20"
+    featured: true
+
+  - name: "Raspberry Pi Zero 2 W"
+    capacity: "512MB RAM"
+    form_factor: "SBC"
+    interface: "WiFi"
+    type: "ARM SBC"
+    price: 14.99
+    price_per_gb: "29.28"
+    note: "Tiny form factor, great for IoT projects and sensors"
+    link: "https://www.amazon.com/dp/B09KLV8P8J?tag=homelabdeals-20"
+
+  - name: "Raspberry Pi Zero W"
+    capacity: "512MB RAM"
+    form_factor: "SBC"
+    interface: "WiFi"
+    type: "ARM SBC"
+    price: 9.99
+    price_per_gb: "19.51"
+    note: "Ultra-low power, perfect for headless applications"
+    link: "https://www.amazon.com/dp/B06XFZC3BX?tag=homelabdeals-20"
+
+  - name: "Orange Pi 5 8GB"
+    capacity: "8GB RAM"
+    form_factor: "SBC"
+    interface: "PCIe 2.0"
+    type: "ARM SBC"
+    price: 89.99
+    price_per_gb: "11.25"
+    note: "RK3588S chip, faster than Pi 4, great for media servers"
+    link: "https://www.amazon.com/dp/B0BPK4PK2V?tag=homelabdeals-20"
+
+  - name: "Orange Pi 5 4GB"
+    capacity: "4GB RAM"
+    form_factor: "SBC"
+    interface: "PCIe 2.0"
+    type: "ARM SBC"
+    price: 69.99
+    price_per_gb: "17.50"
+    note: "Powerful alternative to Pi, M.2 NVMe support"
+    link: "https://www.amazon.com/dp/B0BPK4PK2V?tag=homelabdeals-20"
+
+  - name: "Orange Pi 3B 4GB"
+    capacity: "4GB RAM"
+    form_factor: "SBC"
+    interface: "USB 3.0"
+    type: "ARM SBC"
+    price: 49.99
+    price_per_gb: "12.50"
+    note: "Budget alternative with WiFi 6 and M.2 slot"
+    link: "https://www.amazon.com/dp/B0C6XDW2ZL?tag=homelabdeals-20"
+
+  - name: "ASUS Tinker Board 3N"
+    capacity: "4GB RAM"
+    form_factor: "SBC"
+    interface: "USB 3.0"
+    type: "ARM SBC"
+    price: 79.99
+    price_per_gb: "20.00"
+    note: "Rockchip RK3568, industrial grade, dual Ethernet"
+    link: "https://www.amazon.com/dp/B0C6R1G5P5?tag=homelabdeals-20"
+
+  - name: "ESP32-DevKitC"
+    capacity: "520KB RAM"
+    form_factor: "Microcontroller"
+    interface: "WiFi/BLE"
+    type: "ESP32"
+    price: 9.99
+    price_per_gb: "19.21"
+    note: "Dual-core, WiFi + Bluetooth, perfect for IoT sensors"
+    link: "https://www.amazon.com/dp/B0718T232Z?tag=homelabdeals-20"
+    featured: true
+
+  - name: "ESP32-WROOM-32 3-Pack"
+    capacity: "520KB RAM"
+    form_factor: "Microcontroller"
+    interface: "WiFi/BLE"
+    type: "ESP32"
+    price: 14.99
+    price_per_gb: "9.61"
+    note: "3 boards for prototyping, great value for IoT projects"
+    link: "https://www.amazon.com/dp/B07Q5765WZ?tag=homelabdeals-20"
+
+  - name: "ESP32-S3-DevKitC"
+    capacity: "512KB RAM"
+    form_factor: "Microcontroller"
+    interface: "WiFi/BLE 5"
+    type: "ESP32-S3"
+    price: 12.99
+    price_per_gb: "25.37"
+    note: "AI acceleration, USB-OTG, faster than ESP32"
+    link: "https://www.amazon.com/dp/B0B2N5PRW3?tag=homelabdeals-20"
+
+  - name: "ESP8266 NodeMCU 3-Pack"
+    capacity: "80KB RAM"
+    form_factor: "Microcontroller"
+    interface: "WiFi"
+    type: "ESP8266"
+    price: 9.99
+    price_per_gb: "124.88"
+    note: "Ultra-cheap WiFi MCU, perfect for simple sensors"
+    link: "https://www.amazon.com/dp/B010O1G1ES?tag=homelabdeals-20"
+
+  - name: "BeagleBone Black"
+    capacity: "512MB RAM"
+    form_factor: "SBC"
+    interface: "USB/Ethernet"
+    type: "ARM SBC"
+    price: 59.99
+    price_per_gb: "117.17"
+    note: "Industrial-focused, real-time processing, 4GB eMMC"
+    link: "https://www.amazon.com/dp/B00K7EEX2U?tag=homelabdeals-20"
+
+  - name: "Libre Computer Le Potato 2GB"
+    capacity: "2GB RAM"
+    form_factor: "SBC"
+    interface: "USB 3.0"
+    type: "ARM SBC"
+    price: 39.99
+    price_per_gb: "20.00"
+    note: "Pi 3 alternative, 4K video, low power consumption"
+    link: "https://www.amazon.com/dp/B074P6BNGZ?tag=homelabdeals-20"
+
+  - name: "NanoPi R6S 8GB"
+    capacity: "8GB RAM"
+    form_factor: "SBC"
+    interface: "2.5GbE"
+    type: "ARM SBC"
+    price: 129.99
+    price_per_gb: "16.25"
+    note: "Router/NAS focused, dual 2.5GbE, RK3588S"
+    link: "https://www.amazon.com/dp/B0B12MR3SV?tag=homelabdeals-20"
+    hot: true
+
+  - name: "NanoPi R5S 4GB"
+    capacity: "4GB RAM"
+    form_factor: "SBC"
+    interface: "2.5GbE"
+    type: "ARM SBC"
+    price: 89.99
+    price_per_gb: "22.50"
+    note: "Mini router, dual 2.5GbE, great for homelab networking"
+    link: "https://www.amazon.com/dp/B0B12MR3SV?tag=homelabdeals-20"
+
+  - name: "Odroid C4 4GB"
+    capacity: "4GB RAM"
+    form_factor: "SBC"
+    interface: "USB 3.0"
+    type: "ARM SBC"
+    price: 54.99
+    price_per_gb: "13.75"
+    note: "Amlogic S905X3, faster than Pi 4 for some tasks"
+    link: "https://www.amazon.com/dp/B089K47KGP?tag=homelabdeals-20"
+
+  - name: "Odroid N2+ 4GB"
+    capacity: "4GB RAM"
+    form_factor: "SBC"
+    interface: "USB 3.0"
+    type: "ARM SBC"
+    price: 79.99
+    price_per_gb: "20.00"
+    note: "Powerful hexa-core, great for NAS and media servers"
+    link: "https://www.amazon.com/dp/B08K3S6X5B?tag=homelabdeals-20"
+
+  - name: "Khadas VIM4 8GB"
+    capacity: "8GB RAM"
+    form_factor: "SBC"
+    interface: "HDMI 2.1"
+    type: "ARM SBC"
+    price: 199.99
+    price_per_gb: "25.00"
+    note: "Premium SBC, A311D2 chip, built-in WiFi 6"
+    link: "https://www.amazon.com/dp/B0B7RQ6XLK?tag=homelabdeals-20"
+
+  - name: "Raspberry Pi 400"
+    capacity: "4GB RAM"
+    form_factor: "Keyboard PC"
+    interface: "USB 3.0"
+    type: "ARM SBC"
+    price: 69.99
+    price_per_gb: "17.50"
+    note: "Keyboard form factor, perfect for kids or portable desktop"
+    link: "https://www.amazon.com/dp/B08R5P4Y7Q?tag=homelabdeals-20"
+
+  - name: "Raspberry Pi Camera Module 3"
+    capacity: "12MP"
+    form_factor: "Camera"
+    interface: "CSI"
+    type: "Accessory"
+    price: 34.99
+    price_per_gb: "2.92"
+    note: "Autofocus camera, HDR, great for surveillance projects"
+    link: "https://www.amazon.com/dp/B0BTQB7V62?tag=homelabdeals-20"
+
+  - name: "Waveshare PoE HAT for Pi 5"
+    capacity: "N/A"
+    form_factor: "HAT"
+    interface: "GPIO"
+    type: "Accessory"
+    price: 24.99
+    price_per_gb: "24.99"
+    note: "Power over Ethernet for Pi 5, no separate power needed"
+    link: "https://www.amazon.com/dp/B0C5TJ8D6W?tag=homelabdeals-20"
+
+  - name: "GeeekPi Raspberry Pi Cluster Case"
+    capacity: "N/A"
+    form_factor: "Case"
+    interface: "N/A"
+    type: "Accessory"
+    price: 49.99
+    price_per_gb: "49.99"
+    note: "4-layer cluster case, stack up to 4 Pi boards"
+    link: "https://www.amazon.com/dp/B07CTG6B3Q?tag=homelabdeals-20"

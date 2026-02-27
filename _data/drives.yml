@@ -7,7 +7,7 @@ hdd:
     price: 89.99
     price_per_gb: "0.022"
     note: "Great NAS drive, CMR (not SMR), 3yr warranty"
-    link: "https://amazon.com/dp/B08VH8C3WZ?tag=youraffiliateid-20"
+    link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
     featured: true
 
   - name: "Seagate IronWolf 8TB"
@@ -18,7 +18,7 @@ hdd:
     price: 159.99
     price_per_gb: "0.020"
     note: "Fast NAS drive, 256MB cache, designed for 24/7 operation"
-    link: "https://amazon.com/dp/B07H289S7C?tag=youraffiliateid-20"
+    link: "https://www.amazon.com/dp/B07H289S7C?tag=homelabdeals-20"
     hot: true
 
   - name: "Toshiba N300 14TB"
@@ -29,7 +29,7 @@ hdd:
     price: 269.99
     price_per_gb: "0.019"
     note: "High capacity, CMR, solid reliability reviews"
-    link: "https://amazon.com/dp/B07VSF8JVX?tag=youraffiliateid-20"
+    link: "https://www.amazon.com/dp/B07VSF8JVX?tag=homelabdeals-20"
 
   - name: "Western Digital Red Pro 18TB"
     capacity: "18TB"
@@ -39,7 +39,27 @@ hdd:
     price: 349.99
     price_per_gb: "0.019"
     note: "Enterprise-grade, 5yr warranty, high workload rated"
-    link: "https://amazon.com/dp/B08R7GCHQJ?tag=youraffiliateid-20"
+    link: "https://www.amazon.com/dp/B08R7GCHQJ?tag=homelabdeals-20"
+
+  - name: "Seagate IronWolf Pro 16TB"
+    capacity: "16TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 299.99
+    price_per_gb: "0.019"
+    note: "Pro-grade NAS drive, 5yr warranty, 300TB/year workload"
+    link: "https://www.amazon.com/dp/B07SXM1J7C?tag=homelabdeals-20"
+
+  - name: "Western Digital Red Plus 6TB"
+    capacity: "6TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 129.99
+    price_per_gb: "0.022"
+    note: "Mid-capacity NAS sweet spot, CMR, reliable"
+    link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
 
 ssd:
   - name: "Samsung 870 EVO 1TB"
@@ -50,7 +70,7 @@ ssd:
     price: 79.99
     price_per_gb: "0.080"
     note: "Reliable workhorse, great for older systems or bulk storage"
-    link: "https://amazon.com/dp/B08QBLQG36?tag=youraffiliateid-20"
+    link: "https://www.amazon.com/dp/B08QBLQG36?tag=homelabdeals-20"
 
   - name: "Crucial P3 2TB NVMe"
     capacity: "2TB"
@@ -60,7 +80,7 @@ ssd:
     price: 109.99
     price_per_gb: "0.055"
     note: "Budget NVMe, QLC but fine for game storage or secondary"
-    link: "https://amazon.com/dp/B0B25P44CL?tag=youraffiliateid-20"
+    link: "https://www.amazon.com/dp/B0B25P44CL?tag=homelabdeals-20"
     featured: true
 
   - name: "SK hynix Platinum P41 2TB"
@@ -71,7 +91,7 @@ ssd:
     price: 149.99
     price_per_gb: "0.075"
     note: "Fast PCIe 4.0 drive, TLC with DRAM, excellent reviews"
-    link: "https://amazon.com/dp/B09QVD9C4W?tag=youraffiliateid-20"
+    link: "https://www.amazon.com/dp/B09QVD9C4W?tag=homelabdeals-20"
     hot: true
 
   - name: "Samsung 990 Pro 2TB"
@@ -82,4 +102,25 @@ ssd:
     price: 169.99
     price_per_gb: "0.085"
     note: "Top-tier performance, excellent for boot drives and heavy workloads"
-    link: "https://amazon.com/dp/B0BHJJ9Y77?tag=youraffiliateid-20"
+    link: "https://www.amazon.com/dp/B0BHJJ9Y77?tag=homelabdeals-20"
+
+  - name: "Crucial MX500 1TB"
+    capacity: "1TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 69.99
+    price_per_gb: "0.070"
+    note: "Best value SATA SSD, DRAM cache, 5yr warranty"
+    link: "https://www.amazon.com/dp/B078211KBB?tag=homelabdeals-20"
+    featured: true
+
+  - name: "WD Black SN850X 2TB"
+    capacity: "2TB"
+    form_factor: "M.2"
+    interface: "PCIe 4.0"
+    type: "NVMe"
+    price: 139.99
+    price_per_gb: "0.070"
+    note: "Gaming focused, fast sustained writes, heatsink optional"
+    link: "https://www.amazon.com/dp/B0B7CKWWQJ?tag=homelabdeals-20"

@@ -466,6 +466,15 @@ body {
   left: 100%;
 }
 
+/* Amazon Disclosure */
+.amazon-disclosure {
+  font-size: 0.7rem;
+  color: var(--text-subtle);
+  text-align: center;
+  margin-top: 0.75rem;
+  font-style: italic;
+}
+
 /* Page Header */
 .page-header {
   background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg) 100%);

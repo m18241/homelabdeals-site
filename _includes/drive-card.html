@@ -47,9 +47,13 @@
   <p class="drive-note">{{ drive.note }}</p>
   
   <div class="button-group">
-    <a href="{{ drive.link }}" class="btn btn-amazon" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+    <a href="{{ drive.link }}" class="btn btn-amazon" target="_blank" rel="nofollow noopener">
+      Amazon ${{ drive.price }}
+    </a>
     {% if drive.ebay_link %}
-      <a href="{{ drive.ebay_link }}?campid=5339143637&toolid=20001" class="btn btn-ebay" target="_blank" rel="nofollow noopener">View on eBay →</a>
+      <a href="{{ drive.ebay_link }}?campid=5339143637&toolid=20001" class="btn btn-ebay" target="_blank" rel="nofollow noopener">
+        eBay {% if drive.ebay_price %}${{ drive.ebay_price }}{% else %}View{% endif %}
+      </a>
     {% endif %}
   </div>
   

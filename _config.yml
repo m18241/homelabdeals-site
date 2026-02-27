@@ -1,0 +1,27 @@
+# Site settings
+title: "HomeLabDeals"
+description: "Curated storage deals for homelabs and data hoarders — HDDs, SSDs, and more at the best prices"
+url: "https://m18241.github.io"
+baseurl: "/homelabdeals"
+author: "HomeLabDeals Team"
+email: hello@homelabdeals.io
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+# Collections (for future expansion)
+collections:
+  posts:
+    output: true
+    permalink: /:name/

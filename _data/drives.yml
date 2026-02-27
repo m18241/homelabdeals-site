@@ -1,0 +1,61 @@
+hdd:
+  - name: "Western Digital Red Plus 4TB"
+    capacity: "4TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 89.99
+    price_per_gb: "0.022"
+    note: "Great NAS drive, CMR (not SMR), 3yr warranty"
+    link: "https://amazon.com/dp/B08VH8C3WZ?tag=youraffiliateid-20"
+
+  - name: "Seagate IronWolf 8TB"
+    capacity: "8TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 159.99
+    price_per_gb: "0.020"
+    note: "Fast NAS drive, 256MB cache, designed for 24/7 operation"
+    link: "https://amazon.com/dp/B07H289S7C?tag=youraffiliateid-20"
+
+  - name: "Toshiba N300 14TB"
+    capacity: "14TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 269.99
+    price_per_gb: "0.019"
+    note: "High capacity, CMR, solid reliability reviews"
+    link: "https://amazon.com/dp/B07VSF8JVX?tag=youraffiliateid-20"
+
+ssd:
+  - name: "Samsung 870 EVO 1TB"
+    capacity: "1TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 79.99
+    price_per_gb: "0.080"
+    note: "Reliable workhorse, great for older systems or bulk storage"
+    link: "https://amazon.com/dp/B08QBLQG36?tag=youraffiliateid-20"
+
+  - name: "Crucial P3 2TB NVMe"
+    capacity: "2TB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 109.99
+    price_per_gb: "0.055"
+    note: "Budget NVMe, QLC but fine for game storage or secondary"
+    link: "https://amazon.com/dp/B0B25P44CL?tag=youraffiliateid-20"
+
+  - name: "SK hynix Platinum P41 2TB"
+    capacity: "2TB"
+    form_factor: "M.2"
+    interface: "PCIe 4.0"
+    type: "NVMe"
+    price: 149.99
+    price_per_gb: "0.075"
+    note: "Fast PCIe 4.0 drive, TLC with DRAM, excellent reviews"
+    link: "https://amazon.com/dp/B09QVD9C4W?tag=youraffiliateid-20"

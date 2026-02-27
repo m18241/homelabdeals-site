@@ -1,0 +1,25 @@
+<article class="drive-card">
+  <div class="drive-header">
+    <span class="badge">{{ include.drive.form_factor }}"</span>
+    <span class="badge badge-interface">{{ include.drive.interface }}</span>
+  </div>
+  
+  <h3 class="drive-name">{{ include.drive.name }}</h3>
+  
+  <div class="drive-specs">
+    <span class="capacity">{{ include.drive.capacity }}</span>
+    <span class="separator">•</span>
+    <span class="rpm">{{ include.drive.rpm | default: include.drive.type }}</span>
+  </div>
+  
+  <div class="drive-price">
+    <span class="price">${{ include.drive.price }}</span>
+    <span class="price-per-gb">{{ include.drive.price_per_gb }}/GB</span>
+  </div>
+  
+  <p class="drive-note">{{ include.drive.note }}</p>
+  
+  <a href="{{ include.drive.link }}" class="btn" target="_blank" rel="noopener sponsored">
+    Check Price
+  </a>
+</article>

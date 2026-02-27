@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<main class="container">
+  <header class="hero">
+    <h1>HomeLabDeals</h1>
+    <p class="tagline">Curated storage deals for homelabs & data hoarders</p>
+  </header>
+
+  <section class="drives-section">
+    <h2>Hard Drives (HDD)</h2>
+    <div class="grid">
+      {% for drive in site.data.drives.hdd %}
+        {% include drive-card.html drive=drive %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="drives-section">
+    <h2>Solid State Drives (SSD)</h2>
+    <div class="grid">
+      {% for drive in site.data.drives.ssd %}
+        {% include drive-card.html drive=drive %}
+      {% endfor %}
+    </div>
+  </section>
+</main>

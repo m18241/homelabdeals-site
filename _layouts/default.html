@@ -9,7 +9,7 @@
 </head>
 <body>
   <nav class="site-nav">
-    <div class="container nav-container">
+    <div class="nav-container">
       <a href="{{ '/' | relative_url }}" class="nav-logo">HomeLabDeals</a>
       <ul class="nav-links">
         <li><a href="{{ '/' | relative_url }}">Deals</a></li>
@@ -23,15 +23,43 @@
   {{ content }}
   
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-links">
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/partners/' | relative_url }}">Partners</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-        <a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate Disclosure</a>
-        <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
+    <div class="footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>HomeLabDeals</h3>
+          <p>Curated storage deals for homelabs and data hoarders. We find the best price-per-GB so you don't have to.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Site</h4>
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+            <li><a href="{{ '/partners/' | relative_url }}">Partners</a></li>
+            <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
+            <li><a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate Disclosure</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://github.com/m18241" target="_blank">GitHub</a></li>
+            <li><a href="{{ '/contact/' | relative_url }}">Email Us</a></li>
+          </ul>
+        </div>
       </div>
-      <p class="footer-copyright">© 2025 HomeLabDeals. Prices updated periodically. Links may be affiliate links.</p>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2025 HomeLabDeals. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate Disclosure</a>
+          <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+        </div>
+      </div>
     </div>
   </footer>
 </body>

@@ -1,25 +1,42 @@
-<article class="drive-card">
-  <div class="drive-header">
-    <span class="badge">{{ include.drive.form_factor }}"</span>
-    <span class="badge badge-interface">{{ include.drive.interface }}</span>
+<div class="drive-card">
+  <div class="drive-badges">
+    {% if drive.featured %}
+      <span class="badge badge-best">Best Value</span>
+    {% endif %}
+    {% if drive.hot %}
+      <span class="badge badge-hot">Hot Deal</span>
+    {% endif %}
+    <span class="badge badge-type">{{ drive.interface | default: 'SATA' }}</span>
   </div>
   
-  <h3 class="drive-name">{{ include.drive.name }}</h3>
+  <div class="drive-icon">
+    {% if drive.type == 'NVMe' or drive.form_factor == 'M.2' %}
+      ⚡
+    {% elsif drive.type == 'SATA SSD' %}
+      💾
+    {% else %}
+      💿
+    {% endif %}
+  </div>
+  
+  <h3 class="drive-name">{{ drive.name }}</h3>
   
   <div class="drive-specs">
-    <span class="capacity">{{ include.drive.capacity }}</span>
-    <span class="separator">•</span>
-    <span class="rpm">{{ include.drive.rpm | default: include.drive.type }}</span>
+    <span class="spec">{{ drive.capacity }}</span>
+    <span class="spec">{{ drive.form_factor | default: '3.5"' }}</span>
+    {% if drive.rpm %}
+      <span class="spec">{{ drive.rpm }}</span>
+    {% elsif drive.type %}
+      <span class="spec">{{ drive.type }}</span>
+    {% endif %}
   </div>
   
-  <div class="drive-price">
-    <span class="price">${{ include.drive.price }}</span>
-    <span class="price-per-gb">{{ include.drive.price_per_gb }}/GB</span>
+  <div class="drive-price-row">
+    <span class="price">${{ drive.price }}</span>
+    <span class="price-per-gb">${{ drive.price_per_gb }}/GB</span>
   </div>
   
-  <p class="drive-note">{{ include.drive.note }}</p>
+  <p class="drive-note">{{ drive.note }}</p>
   
-  <a href="{{ include.drive.link }}" class="btn" target="_blank" rel="noopener sponsored">
-    Check Price
-  </a>
-</article>
+  <a href="{{ drive.link }}" class="btn" target="_blank" rel="nofollow noopener">View Deal →</a>
+</div>

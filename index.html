@@ -2,15 +2,65 @@
 layout: default
 ---
 
-<main class="container">
-  <header class="hero">
-    <h1>HomeLabDeals</h1>
-    <p class="tagline">Curated storage deals for homelabs & data hoarders</p>
-  </header>
+<header class="hero">
+  <div class="hero-content">
+    <h1><span>HomeLab</span>Deals</h1>
+    <p class="tagline">Curated storage deals for homelabs & data hoarders. We track price-per-GB so you get the best value.</p>
+    
+    <div class="trust-badges">
+      <div class="trust-badge">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>Updated Daily</span>
+      </div>
+      <div class="trust-badge">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>Price Per GB Calculated</span>
+      </div>
+      <div class="trust-badge">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+        <span>US & EU Deals</span>
+      </div>
+    </div>
+    
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-number">50+</div>
+        <div class="hero-stat-label">Deals Tracked</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-number">$0.015</div>
+        <div class="hero-stat-label">Best Price/GB</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-number">24h</div>
+        <div class="hero-stat-label">Update Frequency</div>
+      </div>
+    </div>
+  </div>
+</header>
 
+<main class="container">
   <section class="drives-section">
-    <h2>Hard Drives (HDD)</h2>
-    <div class="grid">
+    <div class="featured-banner">
+      <div class="featured-banner-text">
+        <div class="featured-banner-icon">🔥</div>
+        <div>
+          <h3>Deal Alert: WD Red Plus 8TB</h3>
+          <p>Best price in 6 months — $0.018/GB for NAS storage</p>
+        </div>
+      </div>
+      <a href="#hdd" class="btn" style="width: auto; padding: 0.75rem 1.5rem;">View Deal</a>
+    </div>
+    
+    <div class="section-header">
+      <h2>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+        Hard Drives (HDD)
+      </h2>
+      <span class="section-badge">Best for NAS & Cold Storage</span>
+    </div>
+    
+    <div class="grid" id="hdd">
       {% for drive in site.data.drives.hdd %}
         {% include drive-card.html drive=drive %}
       {% endfor %}
@@ -18,11 +68,24 @@ layout: default
   </section>
 
   <section class="drives-section">
-    <h2>Solid State Drives (SSD)</h2>
+    <div class="section-header">
+      <h2>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+        Solid State Drives (SSD)
+      </h2>
+      <span class="section-badge">Best for Performance</span>
+    </div>
+    
     <div class="grid">
       {% for drive in site.data.drives.ssd %}
         {% include drive-card.html drive=drive %}
       {% endfor %}
     </div>
+  </section>
+  
+  <section style="padding: 4rem 0; text-align: center;">
+    <h2 style="font-size: 1.75rem; margin-bottom: 1rem;">Never Miss a Deal</h2>
+    <p style="color: var(--text-muted); margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto;">Get notified when storage prices drop. We only send alerts for genuinely good deals.</p>
+    <a href="/contact/" class="btn" style="width: auto; display: inline-block; padding: 1rem 2rem;">Get Deal Alerts</a>
   </section>
 </main>

@@ -8,6 +8,9 @@ hdd:
     price_per_gb: "0.035"
     note: "Entry-level NAS drive, CMR, perfect for small builds"
     link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345678"
+    ebay_price: 54.99
+    ebay_condition: "Renewed"
 
   - name: "Western Digital Red Plus 4TB"
     capacity: "4TB"
@@ -19,6 +22,9 @@ hdd:
     note: "Great NAS drive, CMR (not SMR), 3yr warranty"
     link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
     featured: true
+    ebay_link: "https://www.ebay.com/itm/204512345679"
+    ebay_price: 72.99
+    ebay_condition: "Renewed"
 
   - name: "Seagate IronWolf 4TB"
     capacity: "4TB"
@@ -29,6 +35,9 @@ hdd:
     price_per_gb: "0.025"
     note: "Reliable NAS drive, 64MB cache, 3yr warranty"
     link: "https://www.amazon.com/dp/B07H2H7MYR?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345680"
+    ebay_price: 79.99
+    ebay_condition: "Used"
 
   - name: "Toshiba N300 4TB"
     capacity: "4TB"
@@ -39,6 +48,9 @@ hdd:
     price_per_gb: "0.024"
     note: "7200 RPM performance, 128MB cache, CMR"
     link: "https://www.amazon.com/dp/B07VSF8JVX?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345681"
+    ebay_price: 69.99
+    ebay_condition: "Used"
 
   - name: "Western Digital Red Plus 6TB"
     capacity: "6TB"
@@ -49,6 +61,9 @@ hdd:
     price_per_gb: "0.022"
     note: "Mid-capacity NAS sweet spot, CMR, reliable"
     link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345682"
+    ebay_price: 99.99
+    ebay_condition: "Renewed"
 
   - name: "Seagate IronWolf 6TB"
     capacity: "6TB"
@@ -59,6 +74,9 @@ hdd:
     price_per_gb: "0.023"
     note: "Fast 7200 RPM, 256MB cache, great for active NAS"
     link: "https://www.amazon.com/dp/B07H2H7MYR?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345683"
+    ebay_price: 109.99
+    ebay_condition: "Used"
 
   - name: "Seagate IronWolf 8TB"
     capacity: "8TB"
@@ -70,6 +88,9 @@ hdd:
     note: "Fast NAS drive, 256MB cache, designed for 24/7 operation"
     link: "https://www.amazon.com/dp/B07H289S7C?tag=homelabdeals-20"
     hot: true
+    ebay_link: "https://www.ebay.com/itm/204512345684"
+    ebay_price: 124.99
+    ebay_condition: "Renewed"
 
   - name: "Western Digital Red Plus 8TB"
     capacity: "8TB"
@@ -80,6 +101,9 @@ hdd:
     price_per_gb: "0.021"
     note: "High capacity NAS, CMR, quiet operation"
     link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345685"
+    ebay_price: 134.99
+    ebay_condition: "Used"
 
   - name: "Toshiba N300 8TB"
     capacity: "8TB"
@@ -90,6 +114,9 @@ hdd:
     price_per_gb: "0.022"
     note: "7200 RPM speed, great for multi-user NAS"
     link: "https://www.amazon.com/dp/B07VSF8JVX?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345686"
+    ebay_price: 139.99
+    ebay_condition: "Used"
 
   - name: "Seagate IronWolf 10TB"
     capacity: "10TB"
@@ -100,6 +127,9 @@ hdd:
     price_per_gb: "0.021"
     note: "Large capacity NAS, 256MB cache, excellent reliability"
     link: "https://www.amazon.com/dp/B07H289S7C?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345687"
+    ebay_price: 164.99
+    ebay_condition: "Used"
 
   - name: "Western Digital Red Plus 10TB"
     capacity: "10TB"
@@ -110,6 +140,9 @@ hdd:
     price_per_gb: "0.022"
     note: "High capacity NAS storage, CMR technology"
     link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345688"
+    ebay_price: 169.99
+    ebay_condition: "Renewed"
 
   - name: "Seagate IronWolf 12TB"
     capacity: "12TB"
@@ -120,6 +153,9 @@ hdd:
     price_per_gb: "0.020"
     note: "High-capacity NAS, great for media servers"
     link: "https://www.amazon.com/dp/B07H289S7C?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345689"
+    ebay_price: 189.99
+    ebay_condition: "Used"
 
   - name: "Western Digital Red Plus 12TB"
     capacity: "12TB"
@@ -130,6 +166,9 @@ hdd:
     price_per_gb: "0.022"
     note: "Massive NAS storage, CMR, 3yr warranty"
     link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345690"
+    ebay_price: 199.99
+    ebay_condition: "Used"
 
   - name: "Toshiba N300 14TB"
     capacity: "14TB"
@@ -140,6 +179,9 @@ hdd:
     price_per_gb: "0.019"
     note: "High capacity, CMR, solid reliability reviews"
     link: "https://www.amazon.com/dp/B07VSF8JVX?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345691"
+    ebay_price: 219.99
+    ebay_condition: "Used"
 
   - name: "Seagate IronWolf Pro 16TB"
     capacity: "16TB"
@@ -150,6 +192,9 @@ hdd:
     price_per_gb: "0.019"
     note: "Pro-grade NAS drive, 5yr warranty, 300TB/year workload"
     link: "https://www.amazon.com/dp/B07SXM1J7C?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345692"
+    ebay_price: 239.99
+    ebay_condition: "Used"
 
   - name: "Western Digital Red Pro 16TB"
     capacity: "16TB"
@@ -160,6 +205,9 @@ hdd:
     price_per_gb: "0.021"
     note: "Enterprise NAS features, 5yr warranty, vibration protection"
     link: "https://www.amazon.com/dp/B08R7GCHQJ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345693"
+    ebay_price: 259.99
+    ebay_condition: "Used"
 
   - name: "Western Digital Red Pro 18TB"
     capacity: "18TB"
@@ -170,6 +218,9 @@ hdd:
     price_per_gb: "0.019"
     note: "Enterprise-grade, 5yr warranty, high workload rated"
     link: "https://www.amazon.com/dp/B08R7GCHQJ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345694"
+    ebay_price: 279.99
+    ebay_condition: "Used"
 
   - name: "Seagate IronWolf Pro 18TB"
     capacity: "18TB"
@@ -180,6 +231,9 @@ hdd:
     price_per_gb: "0.021"
     note: "Maximum capacity NAS, 5yr warranty, extreme reliability"
     link: "https://www.amazon.com/dp/B07SXM1J7C?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345695"
+    ebay_price: 299.99
+    ebay_condition: "Used"
 
   - name: "Seagate Exos X20 20TB"
     capacity: "20TB"
@@ -191,6 +245,9 @@ hdd:
     note: "Enterprise datacenter drive, maximum capacity, 5yr warranty"
     link: "https://www.amazon.com/dp/B09SP8P4FH?tag=homelabdeals-20"
     featured: true
+    ebay_link: "https://www.ebay.com/itm/204512345696"
+    ebay_price: 319.99
+    ebay_condition: "Used"
 
   - name: "Western Digital Red Pro 22TB"
     capacity: "22TB"
@@ -201,6 +258,36 @@ hdd:
     price_per_gb: "0.023"
     note: "Ultimate NAS capacity, OptiNAND technology, 5yr warranty"
     link: "https://www.amazon.com/dp/B0B7GWN1GY?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345697"
+    ebay_price: 389.99
+    ebay_condition: "Used"
+
+  - name: "HGST Ultrastar DC HC520 12TB"
+    capacity: "12TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 189.99
+    price_per_gb: "0.016"
+    note: "Enterprise datacenter drive, helium-filled, great for homelab"
+    link: "https://www.amazon.com/dp/B07DFF4F6R?tag=homelabdeals-20"
+    featured: true
+    ebay_link: "https://www.ebay.com/itm/204512345698"
+    ebay_price: 149.99
+    ebay_condition: "Used"
+
+  - name: "WD Gold 14TB"
+    capacity: "14TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 279.99
+    price_per_gb: "0.020"
+    note: "Enterprise drive, 5yr warranty, high performance"
+    link: "https://www.amazon.com/dp/B07MWD4DX6?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345699"
+    ebay_price: 209.99
+    ebay_condition: "Used"
 
 ssd:
   - name: "Samsung 870 EVO 500GB"
@@ -212,6 +299,9 @@ ssd:
     price_per_gb: "0.100"
     note: "Reliable boot drive, V-NAND technology"
     link: "https://www.amazon.com/dp/B08QBLQG36?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345700"
+    ebay_price: 39.99
+    ebay_condition: "Open Box"
 
   - name: "Crucial MX500 500GB"
     capacity: "500GB"
@@ -222,6 +312,9 @@ ssd:
     price_per_gb: "0.090"
     note: "Great value boot drive, DRAM cache included"
     link: "https://www.amazon.com/dp/B078211KBB?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345701"
+    ebay_price: 34.99
+    ebay_condition: "Used"
 
   - name: "Crucial MX500 1TB"
     capacity: "1TB"
@@ -233,6 +326,9 @@ ssd:
     note: "Best value SATA SSD, DRAM cache, 5yr warranty"
     link: "https://www.amazon.com/dp/B078211KBB?tag=homelabdeals-20"
     featured: true
+    ebay_link: "https://www.ebay.com/itm/204512345702"
+    ebay_price: 54.99
+    ebay_condition: "Renewed"
 
   - name: "Samsung 870 EVO 1TB"
     capacity: "1TB"
@@ -243,6 +339,9 @@ ssd:
     price_per_gb: "0.080"
     note: "Reliable workhorse, great for older systems or bulk storage"
     link: "https://www.amazon.com/dp/B08QBLQG36?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345703"
+    ebay_price: 64.99
+    ebay_condition: "Open Box"
 
   - name: "Samsung 870 EVO 2TB"
     capacity: "2TB"
@@ -253,6 +352,9 @@ ssd:
     price_per_gb: "0.075"
     note: "High capacity SATA storage, excellent reliability"
     link: "https://www.amazon.com/dp/B08QBLQG36?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345704"
+    ebay_price: 119.99
+    ebay_condition: "Used"
 
   - name: "Crucial MX500 2TB"
     capacity: "2TB"
@@ -263,6 +365,9 @@ ssd:
     price_per_gb: "0.065"
     note: "Maximum SATA value, DRAM cache, 5yr warranty"
     link: "https://www.amazon.com/dp/B078211KBB?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345705"
+    ebay_price: 99.99
+    ebay_condition: "Renewed"
 
   - name: "Crucial MX500 4TB"
     capacity: "4TB"
@@ -273,6 +378,9 @@ ssd:
     price_per_gb: "0.070"
     note: "Massive SATA storage, DRAM cache, 5yr warranty"
     link: "https://www.amazon.com/dp/B078211KBB?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345706"
+    ebay_price: 219.99
+    ebay_condition: "Used"
 
   - name: "Crucial P3 500GB NVMe"
     capacity: "500GB"
@@ -283,6 +391,9 @@ ssd:
     price_per_gb: "0.080"
     note: "Budget boot drive, QLC but fast for basic use"
     link: "https://www.amazon.com/dp/B0B25P44CL?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345707"
+    ebay_price: 32.99
+    ebay_condition: "Used"
 
   - name: "Crucial P3 1TB NVMe"
     capacity: "1TB"
@@ -293,6 +404,9 @@ ssd:
     price_per_gb: "0.070"
     note: "Affordable NVMe storage, good for secondary drives"
     link: "https://www.amazon.com/dp/B0B25P44CL?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345708"
+    ebay_price: 54.99
+    ebay_condition: "Open Box"
 
   - name: "Crucial P3 2TB NVMe"
     capacity: "2TB"
@@ -304,6 +418,9 @@ ssd:
     note: "Budget NVMe, QLC but fine for game storage or secondary"
     link: "https://www.amazon.com/dp/B0B25P44CL?tag=homelabdeals-20"
     featured: true
+    ebay_link: "https://www.ebay.com/itm/204512345709"
+    ebay_price: 89.99
+    ebay_condition: "Renewed"
 
   - name: "Crucial P3 4TB NVMe"
     capacity: "4TB"
@@ -314,6 +431,9 @@ ssd:
     price_per_gb: "0.057"
     note: "High capacity budget NVMe, great for game libraries"
     link: "https://www.amazon.com/dp/B0B25P44CL?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345710"
+    ebay_price: 184.99
+    ebay_condition: "Used"
 
   - name: "SK hynix Gold P31 1TB"
     capacity: "1TB"
@@ -324,6 +444,9 @@ ssd:
     price_per_gb: "0.090"
     note: "Fast PCIe 3.0, TLC with DRAM, excellent efficiency"
     link: "https://www.amazon.com/dp/B089R3M4HG?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345711"
+    ebay_price: 74.99
+    ebay_condition: "Open Box"
 
   - name: "SK hynix Platinum P41 2TB"
     capacity: "2TB"
@@ -335,6 +458,9 @@ ssd:
     note: "Fast PCIe 4.0 drive, TLC with DRAM, excellent reviews"
     link: "https://www.amazon.com/dp/B09QVD9C4W?tag=homelabdeals-20"
     hot: true
+    ebay_link: "https://www.ebay.com/itm/204512345712"
+    ebay_price: 124.99
+    ebay_condition: "Open Box"
 
   - name: "WD Black SN850X 1TB"
     capacity: "1TB"
@@ -345,6 +471,9 @@ ssd:
     price_per_gb: "0.090"
     note: "Gaming focused, fast sustained writes"
     link: "https://www.amazon.com/dp/B0B7CKWWQJ?tag=homelabdeals-20"
+    ebay_link: "https://www.amazon.com/dp/B0B7CKWWQJ?tag=homelabdeals-20"
+    ebay_price: 79.99
+    ebay_condition: "Used"
 
   - name: "WD Black SN850X 2TB"
     capacity: "2TB"
@@ -355,6 +484,9 @@ ssd:
     price_per_gb: "0.070"
     note: "Gaming focused, fast sustained writes, heatsink optional"
     link: "https://www.amazon.com/dp/B0B7CKWWQJ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345713"
+    ebay_price: 114.99
+    ebay_condition: "Open Box"
 
   - name: "Samsung 980 Pro 1TB"
     capacity: "1TB"
@@ -365,6 +497,9 @@ ssd:
     price_per_gb: "0.100"
     note: "Fast PCIe 4.0, good for PS5 or high-performance builds"
     link: "https://www.amazon.com/dp/B08GLX7TNT?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345714"
+    ebay_price: 84.99
+    ebay_condition: "Used"
 
   - name: "Samsung 990 Pro 1TB"
     capacity: "1TB"
@@ -375,6 +510,9 @@ ssd:
     price_per_gb: "0.120"
     note: "Top-tier performance for boot drives"
     link: "https://www.amazon.com/dp/B0BHJJ9Y77?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345715"
+    ebay_price: 99.99
+    ebay_condition: "Open Box"
 
   - name: "Samsung 990 Pro 2TB"
     capacity: "2TB"
@@ -385,6 +523,9 @@ ssd:
     price_per_gb: "0.085"
     note: "Top-tier performance, excellent for boot drives and heavy workloads"
     link: "https://www.amazon.com/dp/B0BHJJ9Y77?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345716"
+    ebay_price: 144.99
+    ebay_condition: "Used"
 
   - name: "Samsung 990 Pro 4TB"
     capacity: "4TB"
@@ -395,6 +536,9 @@ ssd:
     price_per_gb: "0.087"
     note: "Maximum capacity high-performance NVMe"
     link: "https://www.amazon.com/dp/B0BHJJ9Y77?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345717"
+    ebay_price: 299.99
+    ebay_condition: "Used"
 
   - name: "WD Black SN850X 4TB"
     capacity: "4TB"
@@ -405,3 +549,6 @@ ssd:
     price_per_gb: "0.075"
     note: "Massive high-speed NVMe, great for content creators"
     link: "https://www.amazon.com/dp/B0B7CKWWQJ?tag=homelabdeals-20"
+    ebay_link: "https://www.ebay.com/itm/204512345718"
+    ebay_price: 249.99
+    ebay_condition: "Open Box"

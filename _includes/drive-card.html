@@ -36,9 +36,22 @@
     <span class="price-per-gb">${{ drive.price_per_gb }}/GB</span>
   </div>
   
+  {% if drive.ebay_link and drive.ebay_price %}
+    <div class="ebay-price-row">
+      <span class="ebay-badge">eBay {{ drive.ebay_condition }}</span>
+      <span class="ebay-price">${{ drive.ebay_price }}</span>
+      <span class="savings">Save ${{ drive.price | minus: drive.ebay_price }}</span>
+    </div>
+  {% endif %}
+  
   <p class="drive-note">{{ drive.note }}</p>
   
-  <a href="{{ drive.link }}" class="btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+  <div class="button-group">
+    <a href="{{ drive.link }}" class="btn btn-amazon" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+    {% if drive.ebay_link %}
+      <a href="{{ drive.ebay_link }}?campid=5339143637&toolid=20001" class="btn btn-ebay" target="_blank" rel="nofollow noopener">View on eBay →</a>
+    {% endif %}
+  </div>
   
-  <p class="amazon-disclosure">As an Amazon Associate I earn from qualifying purchases</p>
+  <p class="amazon-disclosure">As an Amazon Associate and eBay Partner, we earn from qualifying purchases</p>
 </div>

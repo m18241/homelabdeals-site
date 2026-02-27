@@ -1,4 +1,4 @@
-<div class="drive-card">
+<div class="drive-card" data-price="{{ drive.price }}" data-capacity="{{ drive.capacity }}" data-ppg="{{ drive.price_per_gb }}" data-featured="{% if drive.featured %}true{% else %}false{% endif %}">
   <div class="drive-badges">
     {% if drive.featured %}
       <span class="badge badge-best">Best Value</span>

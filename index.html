@@ -24,12 +24,12 @@ layout: default
     
     <div class="hero-stats">
       <div class="hero-stat">
-        <div class="hero-stat-number">50+</div>
+        <div class="hero-stat-number">40+</div>
         <div class="hero-stat-label">Deals Tracked</div>
       </div>
       <div class="hero-stat">
-        <div class="hero-stat-number">$0.015</div>
-        <div class="hero-stat-label">Best Price/GB</div>
+        <div class="hero-stat-number">$0.019</div>
+        <div class="hero-stat-label">Best HDD Price/GB</div>
       </div>
       <div class="hero-stat">
         <div class="hero-stat-number">24h</div>
@@ -40,16 +40,16 @@ layout: default
 </header>
 
 <main class="container">
-  <section class="drives-section">
+  <section class="drives-section" id="hdd-section">
     <div class="featured-banner">
       <div class="featured-banner-text">
         <div class="featured-banner-icon">🔥</div>
         <div>
-          <h3>Deal Alert: WD Red Plus 8TB</h3>
-          <p>Best price in 6 months — $0.018/GB for NAS storage</p>
+          <h3>Deal Alert: Seagate Exos X20 20TB</h3>
+          <p>Enterprise-grade storage — $0.020/GB for massive capacity</p>
         </div>
       </div>
-      <a href="#hdd" class="btn" style="width: auto; padding: 0.75rem 1.5rem;">View Deal</a>
+      <a href="#hdd-grid" class="btn" style="width: auto; padding: 0.75rem 1.5rem;">View Deal</a>
     </div>
     
     <div class="section-header">
@@ -57,26 +57,26 @@ layout: default
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
         Hard Drives (HDD)
       </h2>
-      <span class="section-badge">Best for NAS & Cold Storage</span>
+      <span class="section-badge">20 Drives Available</span>
     </div>
     
-    <div class="grid" id="hdd">
+    <div class="grid" id="hdd-grid">
       {% for drive in site.data.drives.hdd %}
         {% include drive-card.html drive=drive %}
       {% endfor %}
     </div>
   </section>
 
-  <section class="drives-section">
+  <section class="drives-section" id="ssd-section">
     <div class="section-header">
       <h2>
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
         Solid State Drives (SSD)
       </h2>
-      <span class="section-badge">Best for Performance</span>
+      <span class="section-badge">20+ Drives Available</span>
     </div>
     
-    <div class="grid">
+    <div class="grid" id="ssd-grid">
       {% for drive in site.data.drives.ssd %}
         {% include drive-card.html drive=drive %}
       {% endfor %}
@@ -89,3 +89,5 @@ layout: default
     <a href="/contact/" class="btn" style="width: auto; display: inline-block; padding: 1rem 2rem;">Get Deal Alerts</a>
   </section>
 </main>
+
+<script src="{{ '/assets/js/sort.js' | relative_url }}"></script>

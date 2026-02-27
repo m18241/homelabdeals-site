@@ -40,7 +40,17 @@ layout: default
 </header>
 
 <main class="container">
-  <section class="drives-section" id="hdd-section">
+  <div class="category-filter">
+    <label for="category-select">Filter by Category:</label>
+    <select id="category-select" onchange="filterCategory(this.value)">
+      <option value="all">Show All</option>
+      <option value="hdd">Hard Drives (HDD)</option>
+      <option value="ssd">Solid State Drives (SSD)</option>
+      <option value="sbc">Single Board Computers</option>
+    </select>
+  </div>
+
+  <section class="drives-section category-section" id="hdd-section" data-category="hdd">
     <div class="featured-banner">
       <div class="featured-banner-text">
         <div class="featured-banner-icon">🔥</div>
@@ -67,7 +77,7 @@ layout: default
     </div>
   </section>
 
-  <section class="drives-section" id="ssd-section">
+  <section class="drives-section category-section" id="ssd-section" data-category="ssd">
     <div class="section-header">
       <h2>
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
@@ -83,7 +93,7 @@ layout: default
     </div>
   </section>
 
-  <section class="drives-section" id="sbc-section">
+  <section class="drives-section category-section" id="sbc-section" data-category="sbc">
     <div class="featured-banner">
       <div class="featured-banner-text">
         <div class="featured-banner-icon">🖥️</div>
@@ -118,3 +128,21 @@ layout: default
 </main>
 
 <script src="{{ '/assets/js/sort.js' | relative_url }}"></script>
+<script>
+function filterCategory(category) {
+  const sections = document.querySelectorAll('.category-section');
+  
+  sections.forEach(section => {
+    if (category === 'all' || section.dataset.category === category) {
+      section.style.display = 'block';
+    } else {
+      section.style.display = 'none';
+    }
+  });
+  
+  // Scroll to top of deals
+  if (category !== 'all') {
+    document.querySelector('.category-filter').scrollIntoView({ behavior: 'smooth' });
+  }
+}
+</script>

@@ -223,6 +223,66 @@ hdd:
     note: "Enterprise drive, 5yr warranty, high performance"
     link: "https://www.amazon.com/dp/B07MWD4DX6?tag=homelabdeals-20"
 
+  - name: "Seagate SkyHawk 8TB"
+    capacity: "8TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 149.99
+    price_per_gb: "0.019"
+    note: "Surveillance drive, 256MB cache, optimized for 24/7 recording"
+    link: "https://www.amazon.com/dp/B07VSF8JVX?tag=homelabdeals-20"
+
+  - name: "WD Purple 8TB"
+    capacity: "8TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "5400 RPM"
+    price: 139.99
+    price_per_gb: "0.017"
+    note: "Surveillance drive, AllFrame technology, 24/7 optimized"
+    link: "https://www.amazon.com/dp/B08VH8C3WZ?tag=homelabdeals-20"
+
+  - name: "Seagate Exos X18 18TB"
+    capacity: "18TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 379.99
+    price_per_gb: "0.021"
+    note: "Enterprise Class, 5yr warranty, 550TB/year workload"
+    link: "https://www.amazon.com/dp/B09SP8P4FH?tag=homelabdeals-20"
+
+  - name: "Toshiba MG10 20TB"
+    capacity: "20TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 419.99
+    price_per_gb: "0.021"
+    note: "Enterprise HDD, 512e sector, 5yr limited warranty"
+    link: "https://www.amazon.com/dp/B09SP8P4FH?tag=homelabdeals-20"
+
+  - name: "Seagate IronWolf Pro 20TB"
+    capacity: "20TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 449.99
+    price_per_gb: "0.022"
+    note: "Highest capacity NAS drive, 550TB/yr workload, 5yr warranty"
+    link: "https://www.amazon.com/dp/B07SXM1J7C?tag=homelabdeals-20"
+
+  - name: "WD Red Pro 14TB"
+    capacity: "14TB"
+    form_factor: "3.5"
+    interface: "SATA III"
+    rpm: "7200 RPM"
+    price: 309.99
+    price_per_gb: "0.022"
+    note: "Maximum NAS performance, 3-year limited warranty"
+    link: "https://www.amazon.com/dp/B08R7GCHQJ?tag=homelabdeals-20"
+
 ssd:
   - name: "Samsung 870 EVO 500GB"
     capacity: "500GB"
@@ -937,6 +997,96 @@ ssd:
     price_per_gb: "0.137"
     note: "Rugged IP68 rated, fast 1000MB/s"
     link: "https://www.amazon.com/dp/B07WJJHWYP?tag=homelabdeals-20"
+
+  - name: "Samsung 870 QVO 2TB"
+    capacity: "2TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 109.99
+    price_per_gb: "0.055"
+    note: "QLC SSD, large SLC cache for fast writes"
+    link: "https://www.amazon.com/dp/B08K2J4L3K?tag=homelabdeals-20"
+
+  - name: "Samsung 870 QVO 4TB"
+    capacity: "4TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 229.99
+    price_per_gb: "0.057"
+    note: "Massive 4TB SATA SSD, great for storage"
+    link: "https://www.amazon.com/dp/B08K2J4L3K?tag=homelabdeals-20"
+
+  - name: "WD Green SN350 240GB"
+    capacity: "240GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 24.99
+    price_per_gb: "0.104"
+    note: "Entry-level NVMe, basic speed for boot drives"
+    link: "https://www.amazon.com/dp/B08P3J6W5Z?tag=homelabdeals-20"
+
+  - name: "WD Green SN350 480GB"
+    capacity: "480GB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 34.99
+    price_per_gb: "0.073"
+    note: "Budget NVMe, good for boot or secondary storage"
+    link: "https://www.amazon.com/dp/B08P3J6W5Z?tag=homelabdeals-20"
+
+  - name: "WD Green SN350 1TB"
+    capacity: "1TB"
+    form_factor: "M.2"
+    interface: "PCIe 3.0"
+    type: "NVMe"
+    price: 59.99
+    price_per_gb: "0.060"
+    note: "Affordable NVMe, decent for secondary storage"
+    link: "https://www.amazon.com/dp/B08P3J6W5Z?tag=homelabdeals-20"
+
+  - name: "TeamGroup MS30 512GB"
+    capacity: "512GB"
+    form_factor: "M.2"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 29.99
+    price_per_gb: "0.059"
+    note: "Budget M.2 SATA SSD, great value"
+    link: "https://www.amazon.com/dp/B07M8P3PPV?tag=homelabdeals-20"
+
+  - name: "TeamGroup MS30 1TB"
+    capacity: "1TB"
+    form_factor: "M.2"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 54.99
+    price_per_gb: "0.055"
+    note: "M.2 form factor, 1TB at budget price"
+    link: "https://www.amazon.com/dp/B07M8P3PPV?tag=homelabdeals-20"
+
+  - name: "Kingston A400 240GB"
+    capacity: "240GB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 22.99
+    price_per_gb: "0.096"
+    note: "Ultra-budget boot drive"
+    link: "https://www.amazon.com/dp/B01N6JQS8C?tag=homelabdeals-20"
+
+  - name: "Kingston A400 1.92TB"
+    capacity: "1.92TB"
+    form_factor: "2.5"
+    interface: "SATA III"
+    type: "SATA SSD"
+    price: 99.99
+    price_per_gb: "0.052"
+    note: "Near-2TB massive storage, great price/GB"
+    link: "https://www.amazon.com/dp/B01N6JQS8C?tag=homelabdeals-20"
 
 sbc:
   - name: "Raspberry Pi 5 8GB"
